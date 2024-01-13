@@ -25,3 +25,29 @@ body {
     margin: 0 15px; /* Adjust the spacing between nav items */
     color: #fff; /* Change the text color as needed */
 }
+
+#contact-form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#contact-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+#contact-form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
