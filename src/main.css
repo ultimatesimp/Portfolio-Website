@@ -1,3 +1,27 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333; /* Change the background color as needed */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    margin: 0;
+    color: #fff; /* Change the text color as needed */
+}
+
+.nav-items {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.nav-items h4 {
+    margin: 0 15px; /* Adjust the spacing between nav items */
+    color: #fff; /* Change the text color as needed */
 }
